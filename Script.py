@@ -115,7 +115,8 @@ User - {}"""
 ➩ Rᴀᴛɪɴɢ: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><a href="https://t.me/ACXBOTZ_UPDATE">{file_name}</a>\n\n𝖩𝗈𝗂𝗇➥ 「𝘼𝘾𝙓 𝘽𝙤𝙩𝙯 𝙐𝙥𝙙𝙖𝙩𝙚」</b>"""
+    FILE_CAPTION = """<blockquote><b><a href="https://t.me/moviefix4u_Hub">{file_name}</a></b></blockquote>
+<blockquote>𝙈𝙖𝙣𝙖𝙜𝙚𝙙 𝘽𝙮 ➥ <a href="https://t.me/ACX_NETWORK">「𝗔𝗖𝗫 𝗡𝗘𝗧𝗪𝗢𝗥𝗞」</a></blockquote>"""
     
 
     ALRT_TXT = """ᴊᴀʟᴅɪ ʏᴇʜᴀ sᴇ ʜᴀᴛᴏ !"""
