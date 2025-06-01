@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '231c18ea7273824491d6bf05425ab74e')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951 7348205141').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7763229951').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/THEHYPER_ACX") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002588267306'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/MOVIE_SEARCHING_GROUP_ACX')
@@ -33,11 +33,11 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #----------- There will be channel id add in all these ---------
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002476467166'))  # set shortner log channel
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002476467166'))
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002588267306'))
 auth_channel = environ.get('AUTH_CHANNEL', '-1002348758566')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002504526170'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002358359240') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002467015295')) # 
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) # 
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/ACX_MOVIE_GROUP') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
